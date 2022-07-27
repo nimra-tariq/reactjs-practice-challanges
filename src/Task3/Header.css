@@ -1,0 +1,27 @@
+.header {
+  background-color: white;
+  height: 72px;
+  padding: 0px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.active {
+  color: red;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.nav-item{
+  margin: 6px;
+}
+
